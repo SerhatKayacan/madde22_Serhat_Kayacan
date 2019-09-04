@@ -1,0 +1,126 @@
+.done {
+  text-decoration: line-through;
+}
+
+.left-menu {
+  border-radius: 20px 0 0 20px;
+  background-color: #fbd05e;
+  margin-top: 20px;
+  text-align: center;
+  .fa-heart {
+    margin-top: 15px;
+  }
+  h4 {
+    margin-top: 150px;
+  }
+  .externalLink {
+    margin-top: 100px;
+  }
+  .iconlar {
+    margin-top: 15px;
+  }
+}
+
+.mainPage {
+  .header {
+    margin-top: 20px;
+    p {
+      font-weight: bold;
+    }
+    .search {
+      display: flex;
+      width: 400px;
+      background-color: #f5f6f8;
+      border-radius: 15px;
+      margin-left: 20px;
+      .search1 {
+        margin-top: 8px;
+        margin-left: 10px;
+      }
+      .search2 {
+        margin-top: 8px;
+        margin-left: 10px;
+        color: #898b98;
+      }
+    }
+    p {
+      margin-left: auto;
+    }
+  }
+  .whatisSmart {
+    background-color: #f5f6f8;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 80%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    a {
+      color: #fe5c19;
+      font-weight: bold;
+      i {
+        margin-left: 5px;
+      }
+    }
+  }
+  .weekArea {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #aab4bc;
+    .week {
+      width: 100%;
+      color: #262b41;
+      p {
+        margin-left: 15px;
+        float: left;
+      }
+    }
+    .day {
+      width: 60px;
+      &:hover {
+        color: #7480ff;
+        cursor: pointer;
+      }
+    }
+  }
+  .bottom {
+    .goals {
+      margin-left: 15px;
+      margin-top: 15px;
+      padding-left: 15px;
+      padding-top: 15px;
+      background-color: #f5f6f8;
+      border-radius: 25px;
+    }
+    .smartprogress {
+      margin-left: 15px;
+      margin-top: 15px;
+      padding-left: 65px;
+      padding-top: 15px;
+      color: white;
+      background-color: #25262b;
+      border-radius: 20px;
+    }
+    .welcomeToSmart {
+      padding-top: 50px;
+      padding-left: 30px;
+      button {
+        background-color: #ff6f47;
+        color: white;
+        border-radius: 20px;
+      }
+    }
+    .goals .list-group-item {
+      span {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      i:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+}
